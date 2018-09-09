@@ -1,0 +1,507 @@
+ul {
+  padding-left:0%;
+}
+
+body {
+    background-image: url("hatch6.jpg");
+    font-family: Gaorgia, 'Arial', serif;
+    font-style: inherit;
+    max-width: 2500px;
+    padding-top:55px;
+}
+
+
+article {
+    background-image: url('back.jpg');
+    width: 95%;
+    margin: auto;
+    border: #666666 solid 2px;
+    font-family: cursive, serif, inherit;
+}
+
+header {
+    background-color: #eeeeee;
+    text-shadow: 2px 1px 0px #000000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #666666 ;
+    text-align: center;
+}
+
+td {
+  margin-left: 10px;
+}
+
+#profilowe {
+    max-width: 100%;
+    border: #666666 solid 0px;
+    border-radius: 10px;
+    padding-left: 2%;
+}
+
+
+.skills {
+    padding-left: 20px;
+    width:100%;
+    text-align:center;
+    float: left;
+    background-color: #EEEEEE ;
+    transition: all .3s ease-in-out;
+}
+
+.points {
+    color: white;
+    background-color: #414141;
+    list-style: none;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: inherit;
+    font-size: 1.5em;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 10px;
+}
+
+.gameFont {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+}
+.gameFont:hover {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+}
+
+
+.firms {
+    font-family: 'Oswald', sans-serif;
+    font-stretch: condensed;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 130px;
+    margin-left:3%;
+}
+
+.pg {
+  width: 100%;
+  max-width: 130px;
+  margin-right: auto;
+}
+
+
+#sliderNK {
+    margin-left: 2em;
+    float: left;
+    width:80%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#sliderTuwima {
+    float: left;
+    width:80%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+.frameNK {
+    float: left;
+    border: 0.15em solid gray;
+    width:80%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 34px;
+    background-color: white;
+}
+
+#sliderEureka {
+    float: left;
+    width:80%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.sliders {
+    float: left;
+    width:100%;
+    border-radius: 15px;
+
+}
+
+.img_containerNK {
+  width: 95%;
+    float: left;
+    margin-left:2%;
+}
+.img_containerPS {
+    width: 95%;
+    float: left;
+    min-height: 150px;
+    margin-left: 30px;
+}
+
+.img_container {
+    float: left;
+    width: 95%;
+    margin-left:20px;
+    margin-right: 54px;
+}
+
+
+.mini {
+    height: 66px;
+    width: 100px;
+    text-align:center;
+    padding: 5px;
+    margin: 5px;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.mini:hover
+{
+    background-color: hsl(70, 2%, 60%);
+    color: lavender;
+    border: 0.18em solid hsl(70, 2%, 60%);
+}
+
+.medium {
+    max-width: 98%;
+    max-height: 600px;
+    text-align:center;
+    padding: 5px;
+    margin: 3px;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    filter: brightness(90%);
+    transition: all .3s ease-in-out;
+}
+
+.medium:hover
+{
+    background-color: hsl(70, 2%, 60%);
+    color: lavender;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    filter: brightness(100%);
+    transition: all .3s ease-in-out;
+
+}
+
+.books {
+  min-height: 460px;
+}
+
+.book {
+    max-width: 97%;
+    max-height: 440px;
+    text-align:center;
+    padding: 3px;
+    margin: 4px;
+    margin-bottom: 20px;
+    border: 0.15em solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    filter: brightness(90%);
+    transition: all .3s ease-in-out;
+}
+
+
+.book:hover
+{
+    background-color: hsl(70, 2%, 60%);
+    color: lavender;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    filter: brightness(100%);
+    transition: all .3s ease-in-out;
+
+}
+
+.sites {
+  min-height: 320px;
+}
+
+
+.site:hover
+{
+    background-color: hsl(70, 2%, 60%);
+    color: lavender;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    filter: brightness(100%);
+    transition: all .3s ease-in-out;
+
+}
+
+.site {
+    max-width: 97%;
+    text-align:center;
+    padding: 5px;
+    margin: 7px;
+    margin-bottom: 20px;
+    border: 0.15em solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    filter: brightness(90%);
+    transition: all .3s ease-in-out;
+}
+
+
+.program:hover
+{
+    background-color: hsl(70, 2%, 60%);
+    color: lavender;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    filter: brightness(100%);
+    transition: all .3s ease-in-out;
+
+}
+
+.program {
+    max-width: 96%;
+    text-align:center;
+    padding: 5px;
+    margin: 7px;
+    margin-bottom: 20px;
+    border: 0.15em solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    filter: brightness(90%);
+    transition: all .3s ease-in-out;
+}
+
+.programs {
+  min-height: 300px;
+}
+
+.frame {
+    float: left;
+    border: 0.15em solid gray;
+    max-height: 400px;
+    max-width: 600px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: white;
+}
+#containerIK {
+    padding-top:60px;
+    width: 100%;
+}
+#containerPS {
+    padding-top:60px;
+    width: 100%;
+}
+
+#containerUsterki {
+  padding-top:60px;
+    width: 100%;
+}
+
+
+
+#IKMenu {
+    margin-top: 2%;
+}
+
+#PSMenu {
+    margin-top: 2%;
+}
+
+#KamaroMenu {
+  margin-top: 2%;
+
+}
+
+.btn-block {
+  border-radius: 5px;
+  width: 95%;
+  border-style: solid 0.12em #666666 ;
+}
+
+.hider {
+    opacity: 50%;
+}
+
+.text1 {
+    max-width: 95%;
+    letter-spacing: 0.1em;
+    background-color: lavender;
+    text-shadow: 1px 1px 0px #000000;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif !important;
+    color: darkgray ;
+    text-align: center;
+    border: #666666 solid 0.02em ;
+    border-radius: 5px;
+}
+
+.text {
+     margin-left:2%;
+     width: 90%;
+}
+
+.cursor {
+    float:left;
+    margin-top: 100px;
+    width: 10%;
+    cursor: pointer;
+}
+
+#gmail {
+  height: 16px;
+}
+
+#yt {
+   margin-left: 20%;
+   max-width: 60%;
+   min-height: 300px;
+   max-height: 600px;
+   margin-bottom: 10rem;
+}
+
+td {
+    min-width: 120px ;
+}
+
+table.dane {
+    margin-top: 10px;
+}
+
+iframe.maps {
+    border-radius: 15px;
+    margin-top: 10px;
+    max-width: 100%;
+    min-width: 200px;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    max-height: 100%;
+    min-height: 250px;
+    border: #666666 solid 0px;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#marvel2 {
+  min-width: 1200px;
+  min-height: 100px;
+}
+
+#marvel1 {
+    float: left;
+}
+
+.marvel {
+  float: left;
+  margin-left: 10px !important;
+}
+
+#DaneOs {
+    min-height: 300px;
+}
+.games {
+    border-radius: 25px;
+    max-width:100%;
+    max-height: 517.13px;
+    text-align:center;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    filter: brightness(90%);
+    transition: all .3s ease-in-out;
+}
+
+.frameGames {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    text-align:center;
+    border: 0.15em solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    filter: brightness(90%);
+    transition: all .3s ease-in-out;
+
+}
+
+.frameGames:hover
+{
+    background-color: hsl(70, 2%, 60%);
+    color: white;
+    border: 0.15em solid hsl(70, 2%, 60%);
+    filter: brightness(100%);
+    transition: all .3s ease-in-out;
+}
+
+.games:hover {
+  background-color: bisque;
+  color: lavender;
+  filter: brightness(100%);
+  transition: all .3s ease-in-out;
+}
+
+
+button[id^="rozwin"] {
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: hsl(70, 2%, 60%);
+    border-radius: 10px;
+    min-height: 25px;
+    min-width: 200px;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+
+button[id^="rozwin"]:hover {
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #414141;
+    border-radius: 10px;
+    min-height: 25px;
+    min-width: 200px;
+    text-transform: uppercase;
+    border: 2px solid #414141;
+}
+
+.row {
+  min-width: 100%
+}
+
+.container-fluid {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}

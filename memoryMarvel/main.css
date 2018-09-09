@@ -1,0 +1,174 @@
+body
+{
+	margin: 0;
+	background-color: black;
+	color: darkred;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+}
+
+main_content {
+	float: left;
+    margin-left: 6%;
+	border-right: darkgray solid 4px;
+}
+
+
+.checked {
+	border: ghostwhite solid 2px;
+	border-radius: 10px;
+    padding: 2px;
+    clear: left;
+    height: 80px;
+    width: 80px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px 10px;
+}
+
+.checkedTD {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    text-align: center;
+
+}
+
+.tdShowed {
+    height: 88px;
+    width: 88px;
+	padding: 6px;
+    border: solid ghostwhite 1px;
+    background-color: darkred;
+    text-align: center;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+
+}
+
+.hero_names {
+    color: ghostwhite;
+    font-size: 15px;
+    margin: 1px;
+	text-align: center;
+
+}
+
+
+#heros {
+	float: left;
+    margin-left: 20px;
+	width: 25%;
+}
+
+h2 {
+
+}
+
+a:link    { color: darkgray; text-decoration: none; }
+a:visited { color: darkgray; }
+a:active  { color: darkgray; }
+a:hover   { color: #E9B64A; }
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	height: 80px ;
+}
+
+
+p a {
+	color: darkred;
+}
+
+h1 b {
+	border: solid 1px white;
+	color: ghostwhite;
+	background-color: darkred;
+	letter-spacing: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+
+.board
+{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cardA
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 4px;
+	background-image: url("img/marvel/marvel.png");
+	border: 4px solid white;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px ;
+	display: inline-block;
+	margin: 4px;
+	background-image: url("img/marvel/marvel.png");
+	border: 4px solid ghostwhite;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border: 4px solid #e9b64a;
+	filter: brightness(100%);
+}
+
+.score
+{
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
